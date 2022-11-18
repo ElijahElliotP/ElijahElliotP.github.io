@@ -30,7 +30,7 @@ unset color_prompt force_color_prompt
 alias grep='grep --color=auto'
 
 # some more ls aliases
-# alias ls='ls --color=auto'
-# alias llf='ls -alF'
-# alias la='ls -A'
-# alias lcf='ls -CF'
+alias lla='ls -laF'
+alias la='ls -aF'
+alias llg='ls -alF --group-directories-first'
+
